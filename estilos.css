@@ -1,0 +1,93 @@
+*{
+background-color: grey;
+font-family: 'Courier New', Courier, monospace;
+}
+    
+.container{
+    height: fit-content;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 50px;
+    background-color: lightgrey;
+    border-radius: 15%;
+    border-right: 10px solid  black;
+    border-bottom: 5px solid black;
+}
+
+.nombre{
+    height: auto;
+    width: 500px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 15%;
+    border-right: 5px solid  black;
+    border-bottom: 2px solid black;
+    text-align: center;
+    align-self: center;
+}
+
+.image-profile{
+   height: 150px;
+   width: 150px;
+   padding-top: 20px;
+   background-color: black;
+   text-align: center;
+   border-radius: 15%;
+   border-right: 5px solid  gray;
+   border-bottom: 2px solid gray;
+}
+
+.datos{
+    height: 125px;
+    width: 250px;
+    text-align: center;
+    border-radius: 15%;
+    border-right: 5px solid  black;
+    border-bottom: 2px solid black;
+}
+
+.info-educacion{
+    height: 120px;
+    width: 355px;
+    text-align: center;
+    border-radius: 15%;
+    border-right: 5px solid  black;
+    border-bottom: 2px solid black;
+}
+
+.info-trabajo{
+    height: 180px;
+    width: 350px;
+    text-align: center;
+    border-radius: 15%;
+    border-right: 5px solid  black;
+    border-bottom: 2px solid black;
+}
+
+.lista{
+    text-align: left;
+}
+
+.profile-description{
+    height: 160px;
+    width: 700px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 15%;
+    border-right: 5px solid  black;
+    border-bottom: 2px solid black;
+}
+
+.skills{
+    height: 150px;
+    width: 450px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 15%;
+    border-right: 5px solid  black;
+    border-bottom: 2px solid black;
+}
